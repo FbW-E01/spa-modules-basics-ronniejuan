@@ -1,4 +1,4 @@
-function clickImages() {
+ function clickImages() {
     const sectionContent = document.getElementById("content");
     sectionContent.addEventListener("click", e => {
         switch (e.target.tagName) {
@@ -9,3 +9,4 @@ function clickImages() {
  }
  
  export {clickImages};
+
